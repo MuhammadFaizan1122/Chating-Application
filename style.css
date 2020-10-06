@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Segoe UI', Helvetica;
+    background-image: linear-gradient( #dfdfdf, #d4d4d4);
+}
+
+.top {
+    height: 120px;
+    width: 100%;
+    background-color: #e9a70f;
+    position: fixed;
+    z-index: -1;
+}
+
+.chatbox {
+    width: 95%;
+    height: calc(100% - 40px);
+    margin-top: 20px;
+    padding: 0;
+    /* margin: 0; */
+}
+
+.col-md-8 {
+    padding-right: -5px !important;
+}
+
+.card .leftHeader {
+    height: 80px;
+}
+
+.profile-pic {
+    height: 45px;
+    width: 45px;
+}
+
+.friend-pic {
+    height: 45px;
+    width: 45px;
+}
+
+.friendImage {
+    padding: auto;
+    height: auto;
+    width: auto;
+    /* border: 1px solid; */
+}
+
+.input {
+    height: 65px;
+    border: transparent;
+    border-bottom: 1px solid #cccbcb;
+}
+
+.form-rounded {
+    border-radius: 1rem;
+}
+
+.name {
+    font-weight: 400;
+    color: #000;
+    height: auto;
+    width: auto;
+}
+
+.under-name {
+    font-size: 12px;
+    line-height: 15px;
+    max-height: 15px;
+}
+
+.list {
+    height: 70px;
+    cursor: pointer;
+}
+
+.landingPage {
+    height: auto;
+}
+
+#chatListBtn {
+    height: auto;
+    width: auto;
+    /* padding: 2px; */
+}
+
+.search {
+    font-size: 20px;
+    color: #9ca1a3;
+}
+
+.icon {
+    width: auto;
+    height: auto;
+    line-height: 50px;
+    padding-left: 2px;
+}
+
+.card-header {
+    height: 90px;
+}
+
+.card-footer {
+    height: 80px;
+}
+
+.homeLogo {
+    height: 270px;
+}
+
+.showingListIcon {
+    width: auto;
+    height: auto;
+    line-height: 45px;
+    font-size: 20px;
+    color: #707070;
+}
+
+.massageInput {
+    /* width: auto; */
+    height: auto;
+}
+
+.smili {
+    width: auto;
+    height: auto;
+    line-height: 38px;
+}
+
+.microphone {
+    width: auto;
+    height: auto;
+}
+
+.chatImage {
+    border: 1px solid;
+}
+
+.chat-pic {
+    width: 30px;
+    height: 30px;
+}
+
+.receive {
+    height: auto;
+    width: auto;
+    background-color: #ffcc56;
+    border-radius: 1rem;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.friendChat {
+    height: auto;
+}
+
+.myChat {
+    height: auto;
+}
+
+.send {
+    height: auto;
+    width: auto;
+    background-color: #e6e6e6;
+    border-radius: 1rem;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.time {
+    color: #707070;
+    font-size: 10px;
+}
+
+#massages {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.btn {
+    height: auto;
+    width: auto;
+    outline: none;
+}
+
+.ellipsis {
+    height: auto;
+    width: auto;
+    color: #9ca1a3;
+    /* margin-left: 15px; */
+}
+
+.dropdown-toggle::before {
+    display: none !important;
+}
+
+.plus {
+    height: auto;
+    width: auto;
+    margin-left: 15px;
+    color: #9ca1a3;
+}
+
+.fa-arrow-left {
+    height: auto;
+    width: auto;
+    color: #9ca1a3;
+}
+
+.close {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modalHeader {
+    height: auto;
+    width: auto;
+}
+
+.para {
+    color: #707070;
+}
